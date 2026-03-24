@@ -1,7 +1,8 @@
 # Write directly to the app.
 import streamlit as st
 from snowflake.snowpark.functions import col
-import requests  
+import requests
+import pandas as pd
 
 st.title("🥤 Customize Your :rainbow[Smoothie] ! :cup_with_straw:")
 st.write(
